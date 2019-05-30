@@ -1,0 +1,275 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
+\hypersetup{unicode=true,
+            pdftitle={Assignment 3},
+            pdfauthor={Per Emil Hammarlund, Albert Öst},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Assignment 3}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{Per Emil Hammarlund, Albert Öst}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+      \predate{\centering\large\emph}
+  \postdate{\par}
+    \date{2019-05-05}
+
+
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+\usepackage{float}
+\let\origfigure\figure
+\let\endorigfigure\endfigure
+\renewenvironment{figure}[1][2] {
+    \expandafter\origfigure\expandafter[H]
+} {
+    \endorigfigure
+}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\newpage
+
+\section{Implementation of forward pass and log
+prob}\label{implementation-of-forward-pass-and-log-prob}
+
+\subsection{Forward pass}\label{forward-pass}
+
+The forward pass was implemented using the following code:
+
+\begin{verbatim}
+function [alphaHat, c]=forward(mc,pX)
+%--------------------------------------------------------
+%Code Authors:
+% Albert Öst
+% Per Emil Hammarlund
+%--------------------------------------------------------
+
+% Get the number of observations
+T = size(pX, 2);
+
+% Get the number of hidden states in the markov chain
+ns = nStates(mc);
+
+% That means that the alhpas will be a T by ns matrix of probabilities
+alphaHat = zeros(ns, T);
+
+%-------------------- continue code from here, and delete error message
+
+% Check if the markov chain is finite or not
+isFinite = finiteDuration(mc);
+if isFinite
+    transProbs = mc.TransitionProb(:, 1: end - 1);
+    c = zeros(T + 1, 1);
+else
+    transProbs = mc.TransitionProb;
+    c = zeros(T, 1);
+end
+
+alphaHat(:,1) = mc.InitialProb .* pX(:,1);
+c(1) = sum(alphaHat(:,1));
+
+alphaHat(:,1) = alphaHat(:,1) ./ c(1);
+
+for t=2:T
+    alphaHat(:,t) = pX(:,t) .* (alphaHat(:,t - 1)' * transProbs)';
+    c(t) = sum(alphaHat(:,t));
+    alphaHat(:,t) = alphaHat(:,t) ./ c(t);
+end
+
+if isFinite
+    c(T + 1) = sum(alphaHat(:,T) .* mc.TransitionProb(:,end));
+end
+
+
+end
+\end{verbatim}
+
+\newpage
+
+\subsection{Implementation of log
+prob}\label{implementation-of-log-prob}
+
+The log prob was implemented using the following code:
+
+\begin{verbatim}
+%----------------------------------------------------
+%Code Authors:
+% Albert öst
+% Per Emil Hammarlund
+%----------------------------------------------------
+
+function logP=logprob(hmm,x)
+hmmSize=size(hmm);%size of hmm array
+T=size(x,2);%number of vector samples in observed sequence
+logP=zeros(hmmSize);%space for result
+for i=1:numel(hmm)%for all HMM objects
+    %Note: array elements can always be accessed as hmm(i),
+    %regardless of hmmSize, even with multi-dimensional array.
+    %
+    %logP(i)= result for hmm(i)
+    %continue coding from here, and delete the error message.
+    [pX, logS] = prob(hmm(i).OutputDistr, x);
+
+    % Scale the probs
+    pX = (ones(size(pX, 1), 1) * exp(logS)) .* pX;
+
+    [~, c] = hmm(i).StateGen.forward(pX);
+
+
+    logP(i) = sum(log(c));
+
+end;
+\end{verbatim}
+
+\newpage
+
+\section{Verification of forward
+pass}\label{verification-of-forward-pass}
+
+To verify the forward pass, the model:
+
+\[q = \begin{pmatrix}1 \\ 0 \end{pmatrix}\]
+\[A = \begin{pmatrix}0.9 & 0.1 & 0 \\ 0 & 0.9 & 0.1 \end{pmatrix}\]
+
+With the state conditional output:
+
+\[g_1 = \mathcal{N}\left( 0, 1 \right)\]
+\[g_2 = \mathcal{N}\left( 3, 2 \right)\]
+
+Was constructed using the following code:
+
+\begin{verbatim}
+mc = MarkovChain([1; 0], [0.9 0.1 0; 0 0.9 0.1]);
+g1 = GaussD('Mean', 0, 'StDev', 1);
+g2 = GaussD('Mean', 3, 'StDev', 2);
+\end{verbatim}
+
+And \(pX\) was calculated by:
+
+\begin{verbatim}
+pX = prob([g1 g2], x);
+\end{verbatim}
+
+Now that the required parameters and model where complete, the function:
+
+\begin{verbatim}
+[alphaHat, c] = mc.forward(pX)
+\end{verbatim}
+
+Could now be tested, which gave the following output:
+
+\begin{verbatim}
+alphaHat =
+
+   1.000000000000000   0.384704237490574   0.418874656659074
+                   0   0.615295762509426   0.581125343340926
+
+c =
+
+          1.000000000000000
+          0.162523466100529
+          0.826580955035720
+          0.058112534334093
+\end{verbatim}
+
+Which is the same values as what was desired in the lab instruction.
+
+\newpage
+
+\section{Validation of log prob}\label{validation-of-log-prob}
+
+The same observations and model where used once again, but this time a
+HMM was also constructed:
+
+\begin{verbatim}
+h = HMM(mc, [g1 g2]);
+\end{verbatim}
+
+The \textbf{logprob} function was then tested with:
+
+\begin{verbatim}
+logP = h.logprob(x)
+\end{verbatim}
+
+Which gave the following output:
+
+\begin{verbatim}
+logP =
+
+  -9.187726979475208
+\end{verbatim}
+
+Which was the same value as what was desired in the lab instruction.
+
+\end{document}

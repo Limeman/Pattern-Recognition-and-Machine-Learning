@@ -1,0 +1,11 @@
+format long
+
+[female_samples, female_frequency] = audioread('female.wav');
+[music_samples, music_frequency] = audioread('male.wav');
+
+[female_mfccs, female_spetgram, female_f, female_t] = GetSpeechFeatures(female_samples, female_frequency, 30e-3, 1);
+[music_mfccs, music_spetgram, music_f, music_t] = GetSpeechFeatures(music_samples, music_frequency, 30e-3, 1);
+
+figure;
+subplot(1, 2, 1);
+imagesc(female_f

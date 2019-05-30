@@ -1,0 +1,52 @@
+format long
+clear
+
+% hyperparameters
+ncep = 13;
+window_length = 30e-3;
+
+% Initialize HMMs    
+mc = MarkovChain([])
+hmms(1)
+
+
+
+% Load the data
+load('data.mat');
+
+[trainSet, testSet] = partitionData(data);
+
+[mfccs, spetgram, f, t] = GetSpeechFeatures(trainSet{1}.samples, trainSet{1}.frequency, window_length, ncep);
+
+% mfccs = normalizeMFCCS(mfccs);
+% 
+% figure;
+% imagesc(mfccs);
+% 
+% figure;
+% imagesc(log(spetgram));
+
+
+function mfccs = normalizeMFCCS(mfccs)
+    mu = mean(mfccs, 2);
+    v = var(mfccs, 0, 2);
+    mfccs = (mfccs - mu) ./ v;
+
+end
+
+function [trainSet, testSet] = partitionData(data)
+    testSet = cell(200, 1);
+    trainSet = cell(1800, 1);
+    testCount = 1;
+    trainCount = 1;
+    for i=1:50:2000
+        for t = 0:4
+            testSet{testCount} = data{i + t};
+            testCount = testCount + 1;
+        end
+        for t = 5:49
+            trainSet{trainCount} = data{i + t};
+            trainCount = trainCount + 1;
+        end
+    end
+end

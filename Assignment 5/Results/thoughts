@@ -1,0 +1,22 @@
+First, we had an accuracy of:
+
+accuracy =
+
+   1.000000000000000
+   1.000000000000000
+   0.850000000000000
+   0.900000000000000
+   0.900000000000000
+   1.000000000000000
+   0.800000000000000
+   1.000000000000000
+   0.700000000000000
+   0.950000000000000
+
+So accuracy on the test set was high in all classes, but class 9 performed the worst. Se averaged out all the mfccs's from class 9 and tried to identify peaks to see why the model was under performing. We concluded that there seemed to be 2 peaks in two of the hidden states. But changing the number of GMM components had no effect. 
+
+We then experimented with different numbers of GMM components, but there was no real effect.
+
+We then tested to see if there was any systemativ classification error, but there was no significant bias towards any given class. 
+
+We tested a live demo, but performance was terrible for all classes but the spoken word seven, this is possibly due to us having trained our model on recordings from four speakers and none of them where from us. Another contributing factor could be that the audio in the training data is trimmed and the recordings that we give in the live demo include significantly longer silent states then our training data.

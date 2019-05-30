@@ -16,7 +16,7 @@ pX = prob([g1, g2], x);
 % Calculate c with the forward pass
 %[~, c] = mc.forward(pX);
 
-% Use the rounded 4 decimal point version of c
+% Use the rounded 4 decimal point version of c (only for finite duration)
 c = [1.0000, 0.1625, 0.8266, 0.0581];
 
 betaHat = mc.backward(pX, c)

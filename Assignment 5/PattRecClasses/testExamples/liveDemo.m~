@@ -1,0 +1,5 @@
+format long
+
+load('hmms-mat');
+
+r = audiorecorder(220)

@@ -13,6 +13,7 @@
     \usepackage{fontspec}
   \fi
   \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
 \fi
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -23,6 +24,7 @@
 }{}
 \usepackage[margin=1in]{geometry}
 \usepackage{hyperref}
+\PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
 \hypersetup{unicode=true,
             pdftitle={Assignment 4},
             pdfauthor={Per Emil Hammarlund, Albert Öst},
@@ -38,25 +40,12 @@
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{0}
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
-\fi
-\ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
 
 %%% Use protect on footnotes to avoid problems with footnotes in titles
 \let\rmarkdownfootnote\footnote%
@@ -66,7 +55,7 @@
 \usepackage{titling}
 
 % Create subtitle command for use in maketitle
-\providecommand{\subtitle}[1]{
+\newcommand{\subtitle}[1]{
   \posttitle{
     \begin{center}\large#1\end{center}
     }
@@ -85,6 +74,17 @@
     \date{2019-05-10}
 
 
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
 \begin{document}
 \maketitle
 
@@ -92,9 +92,8 @@
 
 \newpage
 
-\hypertarget{implementation-of-backward-pass}{%
 \section{Implementation of backward
-pass}\label{implementation-of-backward-pass}}
+pass}\label{implementation-of-backward-pass}
 
 The backward pass was implemented using the following code:
 
@@ -132,9 +131,7 @@ end
 
 \newpage
 
-\hypertarget{validation-of-backward-pass}{%
-\section{Validation of backward
-pass}\label{validation-of-backward-pass}}
+\section{Validation of backward pass}\label{validation-of-backward-pass}
 
 The validation of the backward pass was implemented using the following
 code:
@@ -155,13 +152,16 @@ g2 = GaussD('Mean', 3, 'StDev', 2);
 
 pX = prob([g1, g2], x);
 
-[~, c] = mc.forward(pX);
+% Calculate c with the forward pass
+%[~, c] = mc.forward(pX);
+
+% Use the rounded 4 decimal point version of c (only for finite duration)
+c = [1.0000, 0.1625, 0.8266, 0.0581];
 
 betaHat = mc.backward(pX, c)
 \end{verbatim}
 
-\hypertarget{result-from-the-test-run}{%
-\subsection{Result from the test run}\label{result-from-the-test-run}}
+\subsection{Result from the test run}\label{result-from-the-test-run}
 
 The test run gave the following result:
 
@@ -176,6 +176,7 @@ Which was very close to the desired values in the lab instruction. Here
 \(c\) was calculated using the value returned from the forward
 algorithm. In the lab instruction \(c\) was rounded to 4 decimal points
 in each element. \(c\) had the following values from the forward pass:
+mc = MarkovChain({[}0.75; 0.25{]}, {[}0.99 0.01; 0.03 0.97{]});
 
 \begin{verbatim}
 c =
@@ -186,7 +187,7 @@ c =
    0.058112534334093
 \end{verbatim}
 
-These values where rounded to 4 decimal points, and \(c\) was assignted
+These values where rounded to 4 decimal points, and \(c\) was assigned
 them:
 
 \begin{verbatim}
@@ -205,5 +206,37 @@ betaHat =
 Which are the exactly the values that where desired in the lab
 instruction!
 
+\subsection{Result from infinite HMM}\label{result-from-infinite-hmm}
+
+The same model was used again, but this time with the Markov Chain:
+
+\begin{verbatim}
+mc = MarkovChain([0.75; 0.25], [0.99 0.01; 0.03 0.97]);
+\end{verbatim}
+
+for an infinite duration HMM. Due to the model being infinite duration,
+\(c\) had to be calculated using the forward pass, the following result
+was observed:
+
+\begin{verbatim}
+c =
+
+   0.785456753312471
+   0.119101154610962
+   0.916889618142161
+\end{verbatim}
+
+Using the new \(c\) and the same \(pX\) as before, the following final
+result was observed.
+
+\begin{verbatim}
+betaHat =
+
+   0.895531844493569   9.139989515309171   1.090643824745491
+   9.260608655737570   7.479132798225788   1.090643824745491
+\end{verbatim}
+
+There are no results from the lab instruction to be compared with, but
+the values in \(\hat{\beta}\) do seem to be in the correct neighborhood.
 
 \end{document}

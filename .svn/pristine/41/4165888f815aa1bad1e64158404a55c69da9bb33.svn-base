@@ -1,0 +1,2314 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: (MATLAB, The Mathworks, Inc. Version 9.2.0.556344 \(R2017a\). Operating System: Windows 8)
+%%Title: (C:/Users/Limeman/Google Drive/Pattern Recognition and Machine Learning/Assignment 2/Result_Pics/cepgram_male_female.eps)
+%%CreationDate: 2019-04-28T15:10:43
+%%Pages: (atend)
+%%BoundingBox: 0 0 1079 395
+%%LanguageLevel: 3
+%%EndComments
+%%BeginProlog
+%%BeginResource: procset (Apache XML Graphics Std ProcSet) 1.2 0
+%%Version: 1.2 0
+%%Copyright: (Copyright 2001-2003,2010 The Apache Software Foundation. License terms: http://www.apache.org/licenses/LICENSE-2.0)
+/bd{bind def}bind def
+/ld{load def}bd
+/GR/grestore ld
+/M/moveto ld
+/LJ/setlinejoin ld
+/C/curveto ld
+/f/fill ld
+/LW/setlinewidth ld
+/GC/setgray ld
+/t/show ld
+/N/newpath ld
+/CT/concat ld
+/cp/closepath ld
+/S/stroke ld
+/L/lineto ld
+/CC/setcmykcolor ld
+/A/ashow ld
+/GS/gsave ld
+/RC/setrgbcolor ld
+/RM/rmoveto ld
+/ML/setmiterlimit ld
+/re {4 2 roll M
+1 index 0 rlineto
+0 exch rlineto
+neg 0 rlineto
+cp } bd
+/_ctm matrix def
+/_tm matrix def
+/BT { _ctm currentmatrix pop matrix _tm copy pop 0 0 moveto } bd
+/ET { _ctm setmatrix } bd
+/iTm { _ctm setmatrix _tm concat } bd
+/Tm { _tm astore pop iTm 0 0 moveto } bd
+/ux 0.0 def
+/uy 0.0 def
+/F {
+  /Tp exch def
+  /Tf exch def
+  Tf findfont Tp scalefont setfont
+  /cf Tf def  /cs Tp def
+} bd
+/ULS {currentpoint /uy exch def /ux exch def} bd
+/ULE {
+  /Tcx currentpoint pop def
+  gsave
+  newpath
+  cf findfont cs scalefont dup
+  /FontMatrix get 0 get /Ts exch def /FontInfo get dup
+  /UnderlinePosition get Ts mul /To exch def
+  /UnderlineThickness get Ts mul /Tt exch def
+  ux uy To add moveto  Tcx uy To add lineto
+  Tt setlinewidth stroke
+  grestore
+} bd
+/OLE {
+  /Tcx currentpoint pop def
+  gsave
+  newpath
+  cf findfont cs scalefont dup
+  /FontMatrix get 0 get /Ts exch def /FontInfo get dup
+  /UnderlinePosition get Ts mul /To exch def
+  /UnderlineThickness get Ts mul /Tt exch def
+  ux uy To add cs add moveto Tcx uy To add cs add lineto
+  Tt setlinewidth stroke
+  grestore
+} bd
+/SOE {
+  /Tcx currentpoint pop def
+  gsave
+  newpath
+  cf findfont cs scalefont dup
+  /FontMatrix get 0 get /Ts exch def /FontInfo get dup
+  /UnderlinePosition get Ts mul /To exch def
+  /UnderlineThickness get Ts mul /Tt exch def
+  ux uy To add cs 10 mul 26 idiv add moveto Tcx uy To add cs 10 mul 26 idiv add lineto
+  Tt setlinewidth stroke
+  grestore
+} bd
+/QT {
+/Y22 exch store
+/X22 exch store
+/Y21 exch store
+/X21 exch store
+currentpoint
+/Y21 load 2 mul add 3 div exch
+/X21 load 2 mul add 3 div exch
+/X21 load 2 mul /X22 load add 3 div
+/Y21 load 2 mul /Y22 load add 3 div
+/X22 load /Y22 load curveto
+} bd
+/SSPD {
+dup length /d exch dict def
+{
+/v exch def
+/k exch def
+currentpagedevice k known {
+/cpdv currentpagedevice k get def
+v cpdv ne {
+/upd false def
+/nullv v type /nulltype eq def
+/nullcpdv cpdv type /nulltype eq def
+nullv nullcpdv or
+{
+/upd true def
+} {
+/sametype v type cpdv type eq def
+sametype {
+v type /arraytype eq {
+/vlen v length def
+/cpdvlen cpdv length def
+vlen cpdvlen eq {
+0 1 vlen 1 sub {
+/i exch def
+/obj v i get def
+/cpdobj cpdv i get def
+obj cpdobj ne {
+/upd true def
+exit
+} if
+} for
+} {
+/upd true def
+} ifelse
+} {
+v type /dicttype eq {
+v {
+/dv exch def
+/dk exch def
+/cpddv cpdv dk get def
+dv cpddv ne {
+/upd true def
+exit
+} if
+} forall
+} {
+/upd true def
+} ifelse
+} ifelse
+} if
+} ifelse
+upd true eq {
+d k v put
+} if
+} if
+} if
+} forall
+d length 0 gt {
+d setpagedevice
+} if
+} bd
+/RE { % /NewFontName [NewEncodingArray] /FontName RE -
+  findfont dup length dict begin
+  {
+    1 index /FID ne
+    {def} {pop pop} ifelse
+  } forall
+  /Encoding exch def
+  /FontName 1 index def
+  currentdict definefont pop
+  end
+} bind def
+%%EndResource
+%%BeginResource: procset (Apache XML Graphics EPS ProcSet) 1.0 0
+%%Version: 1.0 0
+%%Copyright: (Copyright 2002-2003 The Apache Software Foundation. License terms: http://www.apache.org/licenses/LICENSE-2.0)
+/BeginEPSF { %def
+/b4_Inc_state save def         % Save state for cleanup
+/dict_count countdictstack def % Count objects on dict stack
+/op_count count 1 sub def      % Count objects on operand stack
+userdict begin                 % Push userdict on dict stack
+/showpage { } def              % Redefine showpage, { } = null proc
+0 setgray 0 setlinecap         % Prepare graphics state
+1 setlinewidth 0 setlinejoin
+10 setmiterlimit [ ] 0 setdash newpath
+/languagelevel where           % If level not equal to 1 then
+{pop languagelevel             % set strokeadjust and
+1 ne                           % overprint to their defaults.
+{false setstrokeadjust false setoverprint
+} if
+} if
+} bd
+/EndEPSF { %def
+count op_count sub {pop} repeat            % Clean up stacks
+countdictstack dict_count sub {end} repeat
+b4_Inc_state restore
+} bd
+%%EndResource
+%FOPBeginFontDict
+%%IncludeResource: font Courier-Bold
+%%IncludeResource: font Helvetica
+%%IncludeResource: font Courier-BoldOblique
+%%IncludeResource: font Courier-Oblique
+%%IncludeResource: font Times-Roman
+%%IncludeResource: font Helvetica-BoldOblique
+%%IncludeResource: font Helvetica-Bold
+%%IncludeResource: font Helvetica-Oblique
+%%IncludeResource: font Times-BoldItalic
+%%IncludeResource: font Courier
+%%IncludeResource: font Times-Italic
+%%IncludeResource: font Times-Bold
+%%IncludeResource: font Symbol
+%%IncludeResource: font ZapfDingbats
+%FOPEndFontDict
+%%BeginResource: encoding WinAnsiEncoding
+/WinAnsiEncoding [
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /space /exclam /quotedbl
+/numbersign /dollar /percent /ampersand /quotesingle
+/parenleft /parenright /asterisk /plus /comma
+/hyphen /period /slash /zero /one
+/two /three /four /five /six
+/seven /eight /nine /colon /semicolon
+/less /equal /greater /question /at
+/A /B /C /D /E
+/F /G /H /I /J
+/K /L /M /N /O
+/P /Q /R /S /T
+/U /V /W /X /Y
+/Z /bracketleft /backslash /bracketright /asciicircum
+/underscore /quoteleft /a /b /c
+/d /e /f /g /h
+/i /j /k /l /m
+/n /o /p /q /r
+/s /t /u /v /w
+/x /y /z /braceleft /bar
+/braceright /asciitilde /bullet /Euro /bullet
+/quotesinglbase /florin /quotedblbase /ellipsis /dagger
+/daggerdbl /circumflex /perthousand /Scaron /guilsinglleft
+/OE /bullet /Zcaron /bullet /bullet
+/quoteleft /quoteright /quotedblleft /quotedblright /bullet
+/endash /emdash /asciitilde /trademark /scaron
+/guilsinglright /oe /bullet /zcaron /Ydieresis
+/space /exclamdown /cent /sterling /currency
+/yen /brokenbar /section /dieresis /copyright
+/ordfeminine /guillemotleft /logicalnot /sfthyphen /registered
+/macron /degree /plusminus /twosuperior /threesuperior
+/acute /mu /paragraph /middot /cedilla
+/onesuperior /ordmasculine /guillemotright /onequarter /onehalf
+/threequarters /questiondown /Agrave /Aacute /Acircumflex
+/Atilde /Adieresis /Aring /AE /Ccedilla
+/Egrave /Eacute /Ecircumflex /Edieresis /Igrave
+/Iacute /Icircumflex /Idieresis /Eth /Ntilde
+/Ograve /Oacute /Ocircumflex /Otilde /Odieresis
+/multiply /Oslash /Ugrave /Uacute /Ucircumflex
+/Udieresis /Yacute /Thorn /germandbls /agrave
+/aacute /acircumflex /atilde /adieresis /aring
+/ae /ccedilla /egrave /eacute /ecircumflex
+/edieresis /igrave /iacute /icircumflex /idieresis
+/eth /ntilde /ograve /oacute /ocircumflex
+/otilde /odieresis /divide /oslash /ugrave
+/uacute /ucircumflex /udieresis /yacute /thorn
+/ydieresis
+] def
+%%EndResource
+%FOPBeginFontReencode
+/Courier-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier-Bold exch definefont pop
+/Helvetica findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica exch definefont pop
+/Courier-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier-BoldOblique exch definefont pop
+/Courier-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier-Oblique exch definefont pop
+/Times-Roman findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-Roman exch definefont pop
+/Helvetica-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica-BoldOblique exch definefont pop
+/Helvetica-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica-Bold exch definefont pop
+/Helvetica-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica-Oblique exch definefont pop
+/Times-BoldItalic findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-BoldItalic exch definefont pop
+/Courier findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier exch definefont pop
+/Times-Italic findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-Italic exch definefont pop
+/Times-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-Bold exch definefont pop
+%FOPEndFontReencode
+%%EndProlog
+%%Page: 1 1
+%%PageBoundingBox: 0 0 1079 395
+%%BeginPageSetup
+[1 0 0 -1 0 395] CT
+%%EndPageSetup
+GS
+[0.75 0 0 0.75 0 0.5] CT
+1 GC
+N
+0 0 1439 526 re
+f
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+1 GC
+N
+0 0 1439 526 re
+f
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+1 GC
+N
+602 39 M
+187 39 L
+187 468 L
+602 468 L
+cp
+f
+GR
+GS
+[0.75 0 0 0.75 295.87527 27.6875] CT
+/Helvetica-Bold 14.667 F
+GS
+[1 0 0 1 0 0] CT
+-128 -4 moveto 
+1 -1 scale
+(Cepstrogram of female audio signal) t 
+GR
+GR
+GS
+[2.41279 0 0 24.75 140.25 29.75] CT
+[1 0 0 1 0 0] CT
+N
+0 0 M
+129 0 L
+129 13 L
+0 13 L
+cp
+clip
+GS
+0 0 translate
+129 13 scale
+%AXGBeginBitmap: java.awt.image.BufferedImage
+{{
+/RawData currentfile /ASCII85Decode filter def
+/Data RawData /FlateDecode filter def
+/DeviceRGB setcolorspace
+<<
+  /Decode [0 1 0 1 0 1]
+  /BitsPerComponent 8
+  /Width 129
+  /ImageType 1
+  /DataSource Data
+  /ImageMatrix [129 0 0 13 0 0]
+  /Height 13
+>> image
+} stopped {handleerror} if
+  RawData flushfile
+} exec
+GascF3N-4`'ZP,k=]btGJqASAS0AHA!@OBMOP![69r_/n@UZ$kJlio/7LKe[";OKn0W6/c#g]HsJ6HV"
+;%P)d<$Vq[8aprl5M7#o_F%F1p=Xf[26Urc]5IB.=aTk8Fh:`<FN1rif:[76Dk4MGX2TI7juZqC\WGD0
+UNWAOI>O96=Mqe^fRD.qqs3d/I*V!3*=(c*K0&C58aL/.q#</e3&fmq2nuu_[I9HhA:I+j@Sf.'T%9L0
+:fDp9>JpFtN^d3IP-U=LN\9%tF"j75GIk2(G=8*GXIIc!gn#hHL4a8@k5WQ?S89sUQs1*!:0VO_iouZs
+dW*[85E+*VSI0(;LI7*6Kki=@e1+b(fKmVAPre2PUb>/<Y.d*J1j1F9@T!En7c*e-MhA1gpPN0\*9gd]
+N\6olWDcM3WNWP(SX!KUpnNj-4S/;Ici/4_;hrEQb3+6fE,35@/pZ\oACD-r^]&poI88HufelAV03E\X
+rp@7;mq5GZ<6c!/W!ouS!X$^q5C;VA"5@/]jN[u?4ALJYp,Ub?)A.>Ua,nrabG,4hXi?/s/I]A]M5(i(
+dIQ(jpME"]#]a+=nRoDuF''i:oTjfm),iiT'UF%5QQ:em83WHPk*'P;31/AfSu<L)0(5QKXe"TC.M>B$
+;3B1L!X*=>(YdT4MTkcs&dK863ZMP[.AqjB\nKhGS5PXtTp$T,2OA_P[6k[oOej,PcZd,a;C)4p)$-oL
+7K>.SM\K]IYMT*b$8O@Eo<'T3<<La9JmqrMr>'rf[8?%WSKa/i.P3a"cb_[&'Y!'#W4.plnCr&RH)8-I
+,r9?.2nb$j[lnc%,)m@*e[t@Vj7h@(<NVTECc3Z4"nGV9&ql9nE6DVGYP7qNLY)J'rXHM%dDDrfCG,>T
+3@;->N62Yl#."'LMt2QmW%mUXHL(*;W32:[j^Y@Q#>iK7#jF0j8L^&Z8hLGspfL&8DUHaC;EL=nZF3?0
+!*/TBUJ*.-+mN%6$`=11O.P`_J9,C/-*-"Y8hN"dp^[`Em@lmeqbh$'%&FSh"A("^PRZYi<ZR?;NUuRT
+8$S=m6@;si\j?(@M#7S^"#2]e/J`aALdc.2j3o3D.R,SR@Ab`Q93kO:P9Yu,%p2FY:.i:SF4n:@QRB4K
+L?1DW4!-XUe6U[S\p;I@]\pZ(4+?6oTdW>$:?ArU;\6c!/sNX[.`AJLF8Ygu`^@LGr74@W<HW2bA1Gbk
+\(Xp]-YCE@BiQGCST=Sl%mDr.r%/j)aWtXamb5LsWj'RlG^EDj('Ug#APif7(,!rd<l<kHI[Tiib'G52
+CW+f$SJo$C!NMtr<:t(Vc/PYW)gH!]83+gGKbkHQZb5<.iZMimO2b96B34Y^02j0hD!D%1+WbudWk!`I
+g8_O.<J@1\,R)8OSS@NYh2,crkQS>RcUJ#."L@OdO`M"^[6YrNfYF`-Zt\h<AKrk>9I\QZUK'[3,0:FR
+kbo10o.cBFo)ZVVSct<)pNITV7;QY+;p)`1X'A2;%'lYPG^B#RC]==qne6lr..*a5o@K,Lc1`=Nl]tK;
+`05heWO0[IQbIJ:(%9ptoh*::1'`?\BkPO9)a%+q@,@-/)HcPVYZ$`<J@*C!`Z]^sH)g\B7iXAhCU$^=
+@.L@kV7/`Hs*p/n-UuGAJX#["gSro2?U'93bkpSMGtOMXJ[ON/5Uq<RYkcobU.:XmM$oHGB1MmEWF:03
+O?:l9q#Bcr[:)#0T9-&N[iQ-7g7\KNK+_TW)c.24oW)cE4e:=`FZe]2[q'>@Paqe?40oCm+mE%U['Lp?
+``?FP-LE[2UGK6=7DRd4%G\rcD:#fLA"ZG%5[!$jr%Z[DS?t>5D<302mdW2pjrF\<bn2&8]"f["]jQ9^
+a!#Q,8.^bD?0JDmRPe#BD#$G*9XJN&DUn4n)'M9F$gK'ii[NDM7EtJg,"EK4G]KFaNWS/l:AqSEBC.s,
+U/:k=_X15p2=LP@rBa#'V:BPL`R7sL*2n:Q<s6r/hNRK]4.&[iGi&1nX2\8i5HM^:%eTbZ7?>56@4KP+
+15fdp0m^)u6/KAI=T$Z'G]ZPf]&ueq=t2**Y$N?[e&#n"QeVm`DuQ'B*eC)3l`:?oYk%@<=6>FZ0s=/C
+85J$_c'*W\q3WE%HQ`!U;#*)/-]dW#IsSRTnihes8@mZ,UQ`++p0Y"gTLW;3$iC,_VQr_W.NBdPnn=.+
+f3OVG73W4R,.#B7;m(bGV?>u\!)"5AK`~>
+
+%AXGEndBitmap
+GR
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+187 468 M
+602 468 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+187 39 M
+602 39 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+249.733 468 M
+249.733 463.71 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+314.074 468 M
+314.074 463.71 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+378.415 468 M
+378.415 463.71 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+442.756 468 M
+442.756 463.71 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+507.097 468 M
+507.097 463.71 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+571.438 468 M
+571.438 463.71 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+249.733 39 M
+249.733 43.29 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+314.074 39 M
+314.074 43.29 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+378.415 39 M
+378.415 43.29 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+442.756 39 M
+442.756 43.29 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+507.097 39 M
+507.097 43.29 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+571.438 39 M
+571.438 43.29 L
+S
+GR
+GS
+[0.75 0 0 0.75 187.29942 355.50001] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-7.5 14 moveto 
+1 -1 scale
+(20) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 235.55523 355.50001] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-7.5 14 moveto 
+1 -1 scale
+(40) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 283.81105 355.50001] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-7.5 14 moveto 
+1 -1 scale
+(60) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 332.06687 355.50001] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-7.5 14 moveto 
+1 -1 scale
+(80) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 380.32267 355.50001] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-11 14 moveto 
+1 -1 scale
+(100) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 428.57849 355.50001] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-11 14 moveto 
+1 -1 scale
+(120) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 295.87514 369.24999] CT
+0.149 GC
+/Helvetica 14.667 F
+GS
+[1 0 0 1 0 0] CT
+-36 16 moveto 
+1 -1 scale
+(Timeframe) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+187 39 M
+187 468 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+602 39 M
+602 468 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+187 88.5 M
+191.29 88.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+187 154.5 M
+191.29 154.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+187 220.5 M
+191.29 220.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+187 286.5 M
+191.29 286.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+187 352.5 M
+191.29 352.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+187 418.5 M
+191.29 418.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+602 88.5 M
+597.71 88.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+602 154.5 M
+597.71 154.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+602 220.5 M
+597.71 220.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+602 286.5 M
+597.71 286.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+602 352.5 M
+597.71 352.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+602 418.5 M
+597.71 418.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 136.25 66.875] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-8 5.5 moveto 
+1 -1 scale
+(2) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 136.25 116.375] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-8 5.5 moveto 
+1 -1 scale
+(4) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 136.25 165.875] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-8 5.5 moveto 
+1 -1 scale
+(6) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 136.25 215.375] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-8 5.5 moveto 
+1 -1 scale
+(8) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 136.25 264.875] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-15 5.5 moveto 
+1 -1 scale
+(10) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 136.25 314.375] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-15 5.5 moveto 
+1 -1 scale
+(12) t 
+GR
+GR
+GS
+[0 -0.75 0.75 0 122 190.62485] CT
+0.149 GC
+/Helvetica 14.667 F
+GS
+[1 0 0 1 0 0] CT
+-58 -4 moveto 
+1 -1 scale
+(Cepstrum frames) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+620 468 M
+644 468 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+620 39 M
+644 39 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+620 468 M
+620 39 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+644 468 M
+644 39 L
+S
+GR
+GS
+[0.375 0 0 0.375 465 29.75] CT
+[1 0 0 1 0 0] CT
+N
+0 858 M
+48 858 L
+48 0 L
+cp
+clip
+GS
+0 0 translate
+48 858 scale
+%AXGBeginBitmap: java.awt.image.BufferedImage
+{{
+/RawData currentfile /ASCII85Decode filter def
+/Data RawData /FlateDecode filter def
+/DeviceRGB setcolorspace
+<<
+  /Decode [0 1 0 1 0 1]
+  /BitsPerComponent 8
+  /Width 48
+  /ImageType 1
+  /DataSource Data
+  /ImageMatrix [48 0 0 858 0 0]
+  /Height 858
+>> image
+} stopped {handleerror} if
+  RawData flushfile
+} exec
+Gb"0<c"ddh*!"nV.6")Z_od5qnr><Te-oiV'F,FZ>jUIW;D)um.2S,q%MBR$;$o%kL<[cQ_SIi?LGdHh
+>;?$InjiUunEY@Gjq_"CWTsM,ApTH:)Z4BV8l\T/qKoWM)Eh+t<Kisk/ZPheo-5P]20eZI<`M$19)geL
+27g7_<R(5?UT,4pgV$Nc%A)kAY,WiGok?ut%3@*><)o.\cr3b@K3u;CWiEm2qJ'$\AFI1aTrJ<(mGFtE
+-@9IrOK'5S3HRqp%6cZ)Y,Wi'52;j3"s4^DUT,Yf@.9\d)SBkDU8f,:s0bR#9t'cg2,uMYF5K\l2;.72
+pJf]$eNJsme_oQNZDsA[ddCFA20d7'!ED#1AIm\!Wkg4RO/T)#Y.FL%<=N8]qhqHm>]jOM<D@Ymol3th
+Gl<nGWbShnXpJ)cGgkbG<Ah:.iJ4G%CsDbn<Af"okIdg`Cu*c5<Ah;FF@B1=DX."lW[?JJZD+?'\"*5q
+W[?JHHpLaADEBn[WWqoVr)6V?p>D18)Vin%TrM_:B3\FGDJf<QWWor^IoKF3h,cP6WWkE64BGOHh-GE$
+WWkD!\>?5%:]CUqg/QZ~>
+
+%AXGEndBitmap
+GR
+GR
+GS
+[0.375 0 0 0.375 465 29.75] CT
+[1 0 0 1 0 0] CT
+N
+48 0 M
+0 0 L
+0 858 L
+cp
+clip
+GS
+0 0 translate
+48 858 scale
+%AXGBeginBitmap: java.awt.image.BufferedImage
+{{
+/RawData currentfile /ASCII85Decode filter def
+/Data RawData /FlateDecode filter def
+/DeviceRGB setcolorspace
+<<
+  /Decode [0 1 0 1 0 1]
+  /BitsPerComponent 8
+  /Width 48
+  /ImageType 1
+  /DataSource Data
+  /ImageMatrix [48 0 0 858 0 0]
+  /Height 858
+>> image
+} stopped {handleerror} if
+  RawData flushfile
+} exec
+Gb"0<c"ddh*!"nV.6")Z_od5qnr><Te-oiV'F,FZ>jUIW;D)um.2S,q%MBR$;$o%kL<[cQ_SIi?LGdHh
+>;?$InjiUunEY@Gjq_"CWTsM,ApTH:)Z4BV8l\T/qKoWM)Eh+t<Kisk/ZPheo-5P]20eZI<`M$19)geL
+27g7_<R(5?UT,4pgV$Nc%A)kAY,WiGok?ut%3@*><)o.\cr3b@K3u;CWiEm2qJ'$\AFI1aTrJ<(mGFtE
+-@9IrOK'5S3HRqp%6cZ)Y,Wi'52;j3"s4^DUT,Yf@.9\d)SBkDU8f,:s0bR#9t'cg2,uMYF5K\l2;.72
+pJf]$eNJsme_oQNZDsA[ddCFA20d7'!ED#1AIm\!Wkg4RO/T)#Y.FL%<=N8]qhqHm>]jOM<D@Ymol3th
+Gl<nGWbShnXpJ)cGgkbG<Ah:.iJ4G%CsDbn<Af"okIdg`Cu*c5<Ah;FF@B1=DX."lW[?JJZD+?'\"*5q
+W[?JHHpLaADEBn[WWqoVr)6V?p>D18)Vin%TrM_:B3\FGDJf<QWWor^IoKF3h,cP6WWkE64BGOHh-GE$
+WWkD!\>?5%:]CUqg/QZ~>
+
+%AXGEndBitmap
+GR
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+644 468 M
+644 39 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+644 455.173 M
+639.71 455.173 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+644 408.728 M
+639.71 408.728 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+644 362.283 M
+639.71 362.283 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+644 315.838 M
+639.71 315.838 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+644 269.393 M
+639.71 269.393 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+644 222.949 M
+639.71 222.949 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+644 176.504 M
+639.71 176.504 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+644 130.059 M
+639.71 130.059 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+644 83.614 M
+639.71 83.614 L
+S
+GR
+GS
+[0.75 0 0 0.75 486.79999 341.87978] CT
+0.149 GC
+/Helvetica 12 F
+GS
+[1 0 0 1 0 0] CT
+0 5 moveto 
+1 -1 scale
+(-2) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 486.79999 307.04611] CT
+0.149 GC
+/Helvetica 12 F
+GS
+[1 0 0 1 0 0] CT
+0 5 moveto 
+1 -1 scale
+(-1.5) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 486.79999 272.21245] CT
+0.149 GC
+/Helvetica 12 F
+GS
+[1 0 0 1 0 0] CT
+0 5 moveto 
+1 -1 scale
+(-1) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 486.79999 237.37878] CT
+0.149 GC
+/Helvetica 12 F
+GS
+[1 0 0 1 0 0] CT
+0 5 moveto 
+1 -1 scale
+(-0.5) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 486.79999 202.54512] CT
+0.149 GC
+/Helvetica 12 F
+GS
+[1 0 0 1 0 0] CT
+0 5 moveto 
+1 -1 scale
+(0) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 486.79999 167.71144] CT
+0.149 GC
+/Helvetica 12 F
+GS
+[1 0 0 1 0 0] CT
+0 5 moveto 
+1 -1 scale
+(0.5) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 486.79999 132.87778] CT
+0.149 GC
+/Helvetica 12 F
+GS
+[1 0 0 1 0 0] CT
+0 5 moveto 
+1 -1 scale
+(1) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 486.79999 98.04412] CT
+0.149 GC
+/Helvetica 12 F
+GS
+[1 0 0 1 0 0] CT
+0 5 moveto 
+1 -1 scale
+(1.5) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 486.79999 63.21046] CT
+0.149 GC
+/Helvetica 12 F
+GS
+[1 0 0 1 0 0] CT
+0 5 moveto 
+1 -1 scale
+(2) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+620 39 M
+644 39 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+620 468 M
+644 468 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+620 468 M
+620 39 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+644 468 M
+644 39 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.2 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+620 468 M
+620 468 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.2 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+620 39 M
+620 39 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.2 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+644 468 M
+644 468 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.2 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+644 39 M
+644 39 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+1 GC
+N
+1236 39 M
+821 39 L
+821 468 L
+1236 468 L
+cp
+f
+GR
+GS
+[0.75 0 0 0.75 771.37573 27.6875] CT
+/Helvetica-Bold 14.667 F
+GS
+[1 0 0 1 0 0] CT
+-121 -4 moveto 
+1 -1 scale
+(Cepstrogram of male audio signal) t 
+GR
+GR
+GS
+[2.2719 0 0 24.75 615.75 29.75] CT
+[1 0 0 1 0 0] CT
+N
+0 0 M
+137 0 L
+137 13 L
+0 13 L
+cp
+clip
+GS
+0 0 translate
+137 13 scale
+%AXGBeginBitmap: java.awt.image.BufferedImage
+{{
+/RawData currentfile /ASCII85Decode filter def
+/Data RawData /FlateDecode filter def
+/DeviceRGB setcolorspace
+<<
+  /Decode [0 1 0 1 0 1]
+  /BitsPerComponent 8
+  /Width 137
+  /ImageType 1
+  /DataSource Data
+  /ImageMatrix [137 0 0 13 0 0]
+  /Height 13
+>> image
+} stopped {handleerror} if
+  RawData flushfile
+} exec
+Gasb[6&8TB'ZP2O$WfY&(P3#L'2p`d#"g&<)%bT5co/"<eS8dF-8u7YWX(PpON9je&MkOhW5H\1N0`Tk
+[BRnHJXA$@Jd>!eLOT!rrpt,Ss%rt1O8J@WpY9i(o:9sj)nGb(812_g\uBM7?/.P$(ZAAnP?#':c`AWm
+>/-3e)r+ZB>M$smWTRI9f<7tiZWat,@sUWU:KA?9$Uc7$ldsuZI+gWh]^>#lOmQN2<>[O,&MNEWa27II
+U>QGqO?JM/%Z?r'Fe4T1+il+8kL5_)5:^_0.in84WmIl+n1ZBXTfk>E?5+_,L6]f<@@Jc>_l"VP%S&G8
+o[[*..MUPQ)e+Yf4eShG(_D)[.5coFl^$B/G;2'rrH%%bn'4Cm#rf`.MKTV@?$@PP%$*JGMF`=)s&kCn
+&D/`"d*5??N+L*Lf.c-=aoplj<ssB!f<sma05@o-BY4T3=Yk9b\_hV%q.%b858bS*cJN,u"p[MeSAG[I
+%bIA[i5i#27@lB,mQd``aZuiD#agI;B@TNVs*UqbfBZ$tf&J)89Irmff\%$a#idd<5]FE&)nlH;"^n()
+R*)+;AsXmB%.^Ef=Ol?p1]XV'G\uF'2"25i0^7'TNuhYSs+=No#upgh`.YH6CHQ+6^$tRL(ltW<lq#4Y
+N#"/[;O"ND#c?f3@<q,k7\Y:fWJ;nZqp>MUd?FcbWF[SBg>6,(^a,N(O!NMN-*,!cGdS+S=HBd*aV,tH
+bq?D<)#E&44YWAE]#H#!7U/uM4KgB!R8-BF<)g-)V4`+il"Q>[b9hhn1<++<Rm[J+TO>"/0`)^FI[J#.
+%UoH75+*=la'$<Eee:rdSMbeXcXsX^-XC<i3.eIj03j2D"RF$j.gQ6o`rJVs(PhWreu*J\T)hG92Fk]r
+&d]O'E!'WZ)D@7>4PBVV\"dEU1,Yi);==@q`m:VqSl,h'10H7s%.nLVY``_E+P.EQU]:>[hT&])qs;=2
+etYX2GbQ(`U*OeH#'178i%Xm$D[]fO$gZ##p81568K9JaVtjW2C8?,)+=WeOM[2CrEns<6@LEBe&3:[J
+:puG!\&t"(PH3_R/\))M-7iF`EtGsj7thG?1f^Xaib#UG0,$j1V#I:JS!)?)[ijZQrb0BT.I6;:a5SFN
+-:2I]g6*.&@nXClnM73\M33J![^aa;R5A'JV:I/f)RR/[C+771,@sC::fZ&KD5B*cV-eP%6,t56(Qe;_
+Ph9mRZ6l@W>Nen(q:^9tBjn="iX#i4!9B@KaPh=aO1kLJm8QCXs7"FB.mNBeq1slq6EOV-_AlPFl4HTl
+WU&@_/R,[D&T#B>GeUaKC?ZLZb8og"Q-r68(V?&.AD&j6l7\MJW^P<K+tN5ljlJBKJ0HGAn/B0%^D0YI
+>fh.qD7HQH.=L6srW,SB-aU/\4I_IsX)C\5#TYF<7s^sU)qk-?0X`2>6*RXLL%D15N3t5I/gP6,4nKR<
+l"<fN<V#4VC<'DdKf<M!?H=p9h]8t5\@Lj_]uJ>d)6nBik=o&oTQMJe@MMZP,WPpgdeLJpkV@m,'pog_
+1W#l[jfq`pbY:Z<&![54bi%V2[ogoM$CR<H+YhV5Kii.sk*=I,NaZ8NKV]9R/&GJ*O+t=RSEK_*lp7#b
+':d;uXYmG$1$4'V`ZiW0ibY^0Zkt[$T/K=c1Chc&@>&\b>'chE%4JS7jPkimL.mpJhT#ibZZ^'/cZh%b
+BmdIEG\tVO41J$S)`GbTcEaE0j.-OX%&J3[$Qj@SL3U27ja"%ngCDFb]jo'6A*4RWPk3B;]s*o>5F%>H
+_<8P,G;JqD)/+#uN#3/-TD@S#ld";WhAf3D/*_aK]:ERDa.\gA!0P8sr6'TlJj$O`Y<CHLHtQh-o9V`E
+j9gR-EEJS2Z(%,,o$,@.L"'":J!WTe+!D'o_2XbjP`]3L)]QDf2']`jX%&\`fOCj(p)jL)/c2DF_q[>n
+r!Y@qE"Ho)G0lo`.-(T(ieYj21dP+l'FWBEcY=n/W3gKWI%-*(,_fA=e2"qS`oECK%O3PYf]+_&GT.GF
+A,"T?QUi!_+KnK0Q)?bHgfV?SNjFIAN5nK/"PQr)p4(+D`f0_2$c!V>$NZn$@of$"QHd6'L)r'6K43D"
+,IUKi"A7#p\6AZ;f^85>p-5u$!]L~>
+
+%AXGEndBitmap
+GR
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+821 468 M
+1236 468 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+821 39 M
+1236 39 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+880.069 468 M
+880.069 463.71 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+940.653 468 M
+940.653 463.71 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1001.237 468 M
+1001.237 463.71 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1061.821 468 M
+1061.821 463.71 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1122.405 468 M
+1122.405 463.71 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1182.989 468 M
+1182.989 463.71 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+880.069 39 M
+880.069 43.29 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+940.653 39 M
+940.653 43.29 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1001.237 39 M
+1001.237 43.29 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1061.821 39 M
+1061.821 43.29 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1122.405 39 M
+1122.405 43.29 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1182.989 39 M
+1182.989 43.29 L
+S
+GR
+GS
+[0.75 0 0 0.75 660.052 355.50001] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-7.5 14 moveto 
+1 -1 scale
+(20) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 705.48994 355.50001] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-7.5 14 moveto 
+1 -1 scale
+(40) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 750.92793 355.50001] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-7.5 14 moveto 
+1 -1 scale
+(60) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 796.36588 355.50001] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-7.5 14 moveto 
+1 -1 scale
+(80) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 841.80386 355.50001] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-11 14 moveto 
+1 -1 scale
+(100) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 887.24176 355.50001] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-11 14 moveto 
+1 -1 scale
+(120) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 771.37518 369.24999] CT
+0.149 GC
+/Helvetica 14.667 F
+GS
+[1 0 0 1 0 0] CT
+-36 16 moveto 
+1 -1 scale
+(Timeframe) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+821 39 M
+821 468 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1236 39 M
+1236 468 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+821 88.5 M
+825.29 88.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+821 154.5 M
+825.29 154.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+821 220.5 M
+825.29 220.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+821 286.5 M
+825.29 286.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+821 352.5 M
+825.29 352.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+821 418.5 M
+825.29 418.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1236 88.5 M
+1231.71 88.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1236 154.5 M
+1231.71 154.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1236 220.5 M
+1231.71 220.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1236 286.5 M
+1231.71 286.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1236 352.5 M
+1231.71 352.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1236 418.5 M
+1231.71 418.5 L
+S
+GR
+GS
+[0.75 0 0 0.75 611.75002 66.875] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-8 5.5 moveto 
+1 -1 scale
+(2) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 611.75002 116.375] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-8 5.5 moveto 
+1 -1 scale
+(4) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 611.75002 165.875] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-8 5.5 moveto 
+1 -1 scale
+(6) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 611.75002 215.375] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-8 5.5 moveto 
+1 -1 scale
+(8) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 611.75002 264.875] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-15 5.5 moveto 
+1 -1 scale
+(10) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 611.75002 314.375] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-15 5.5 moveto 
+1 -1 scale
+(12) t 
+GR
+GR
+GS
+[0 -0.75 0.75 0 597.50002 190.62485] CT
+0.149 GC
+/Helvetica 14.667 F
+GS
+[1 0 0 1 0 0] CT
+-58 -4 moveto 
+1 -1 scale
+(Cepstrum frames) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1254 468 M
+1278 468 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1254 39 M
+1278 39 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1254 468 M
+1254 39 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1278 468 M
+1278 39 L
+S
+GR
+GS
+[0.375 0 0 0.375 940.5 29.75] CT
+[1 0 0 1 0 0] CT
+N
+0 858 M
+48 858 L
+48 0 L
+cp
+clip
+GS
+0 0 translate
+48 858 scale
+%AXGBeginBitmap: java.awt.image.BufferedImage
+{{
+/RawData currentfile /ASCII85Decode filter def
+/Data RawData /FlateDecode filter def
+/DeviceRGB setcolorspace
+<<
+  /Decode [0 1 0 1 0 1]
+  /BitsPerComponent 8
+  /Width 48
+  /ImageType 1
+  /DataSource Data
+  /ImageMatrix [48 0 0 858 0 0]
+  /Height 858
+>> image
+} stopped {handleerror} if
+  RawData flushfile
+} exec
+Gb"0<c"ddh*!"nV.6")Z_od5qnr><Te-oiV'F,FZ>jUIW;D)um.2S,q%MBR$;$o%kL<[cQ_SIi?LGdHh
+>;?$InjiUunEY@Gjq_"CWTsM,ApTH:)Z4BV8l\T/qKoWM)Eh+t<Kisk/ZPheo-5P]20eZI<`M$19)geL
+27g7_<R(5?UT,4pgV$Nc%A)kAY,WiGok?ut%3@*><)o.\cr3b@K3u;CWiEm2qJ'$\AFI1aTrJ<(mGFtE
+-@9IrOK'5S3HRqp%6cZ)Y,Wi'52;j3"s4^DUT,Yf@.9\d)SBkDU8f,:s0bR#9t'cg2,uMYF5K\l2;.72
+pJf]$eNJsme_oQNZDsA[ddCFA20d7'!ED#1AIm\!Wkg4RO/T)#Y.FL%<=N8]qhqHm>]jOM<D@Ymol3th
+Gl<nGWbShnXpJ)cGgkbG<Ah:.iJ4G%CsDbn<Af"okIdg`Cu*c5<Ah;FF@B1=DX."lW[?JJZD+?'\"*5q
+W[?JHHpLaADEBn[WWqoVr)6V?p>D18)Vin%TrM_:B3\FGDJf<QWWor^IoKF3h,cP6WWkE64BGOHh-GE$
+WWkD!\>?5%:]CUqg/QZ~>
+
+%AXGEndBitmap
+GR
+GR
+GS
+[0.375 0 0 0.375 940.5 29.75] CT
+[1 0 0 1 0 0] CT
+N
+48 0 M
+0 0 L
+0 858 L
+cp
+clip
+GS
+0 0 translate
+48 858 scale
+%AXGBeginBitmap: java.awt.image.BufferedImage
+{{
+/RawData currentfile /ASCII85Decode filter def
+/Data RawData /FlateDecode filter def
+/DeviceRGB setcolorspace
+<<
+  /Decode [0 1 0 1 0 1]
+  /BitsPerComponent 8
+  /Width 48
+  /ImageType 1
+  /DataSource Data
+  /ImageMatrix [48 0 0 858 0 0]
+  /Height 858
+>> image
+} stopped {handleerror} if
+  RawData flushfile
+} exec
+Gb"0<c"ddh*!"nV.6")Z_od5qnr><Te-oiV'F,FZ>jUIW;D)um.2S,q%MBR$;$o%kL<[cQ_SIi?LGdHh
+>;?$InjiUunEY@Gjq_"CWTsM,ApTH:)Z4BV8l\T/qKoWM)Eh+t<Kisk/ZPheo-5P]20eZI<`M$19)geL
+27g7_<R(5?UT,4pgV$Nc%A)kAY,WiGok?ut%3@*><)o.\cr3b@K3u;CWiEm2qJ'$\AFI1aTrJ<(mGFtE
+-@9IrOK'5S3HRqp%6cZ)Y,Wi'52;j3"s4^DUT,Yf@.9\d)SBkDU8f,:s0bR#9t'cg2,uMYF5K\l2;.72
+pJf]$eNJsme_oQNZDsA[ddCFA20d7'!ED#1AIm\!Wkg4RO/T)#Y.FL%<=N8]qhqHm>]jOM<D@Ymol3th
+Gl<nGWbShnXpJ)cGgkbG<Ah:.iJ4G%CsDbn<Af"okIdg`Cu*c5<Ah;FF@B1=DX."lW[?JJZD+?'\"*5q
+W[?JHHpLaADEBn[WWqoVr)6V?p>D18)Vin%TrM_:B3\FGDJf<QWWor^IoKF3h,cP6WWkE64BGOHh-GE$
+WWkD!\>?5%:]CUqg/QZ~>
+
+%AXGEndBitmap
+GR
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1278 468 M
+1278 39 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1278 439.492 M
+1273.71 439.492 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1278 394.546 M
+1273.71 394.546 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1278 349.6 M
+1273.71 349.6 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1278 304.654 M
+1273.71 304.654 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1278 259.708 M
+1273.71 259.708 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1278 214.762 M
+1273.71 214.762 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1278 169.816 M
+1273.71 169.816 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1278 124.87 M
+1273.71 124.87 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1278 79.925 M
+1273.71 79.925 L
+S
+GR
+GS
+[0.75 0 0 0.75 962.29999 330.11896] CT
+0.149 GC
+/Helvetica 12 F
+GS
+[1 0 0 1 0 0] CT
+0 5 moveto 
+1 -1 scale
+(-2) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 962.29999 296.40949] CT
+0.149 GC
+/Helvetica 12 F
+GS
+[1 0 0 1 0 0] CT
+0 5 moveto 
+1 -1 scale
+(-1.5) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 962.29999 262.70005] CT
+0.149 GC
+/Helvetica 12 F
+GS
+[1 0 0 1 0 0] CT
+0 5 moveto 
+1 -1 scale
+(-1) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 962.29999 228.99061] CT
+0.149 GC
+/Helvetica 12 F
+GS
+[1 0 0 1 0 0] CT
+0 5 moveto 
+1 -1 scale
+(-0.5) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 962.29999 195.28117] CT
+0.149 GC
+/Helvetica 12 F
+GS
+[1 0 0 1 0 0] CT
+0 5 moveto 
+1 -1 scale
+(0) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 962.29999 161.57171] CT
+0.149 GC
+/Helvetica 12 F
+GS
+[1 0 0 1 0 0] CT
+0 5 moveto 
+1 -1 scale
+(0.5) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 962.29999 127.86227] CT
+0.149 GC
+/Helvetica 12 F
+GS
+[1 0 0 1 0 0] CT
+0 5 moveto 
+1 -1 scale
+(1) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 962.29999 94.15283] CT
+0.149 GC
+/Helvetica 12 F
+GS
+[1 0 0 1 0 0] CT
+0 5 moveto 
+1 -1 scale
+(1.5) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 962.29999 60.44339] CT
+0.149 GC
+/Helvetica 12 F
+GS
+[1 0 0 1 0 0] CT
+0 5 moveto 
+1 -1 scale
+(2) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1254 39 M
+1278 39 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1254 468 M
+1278 468 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1254 468 M
+1254 39 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1278 468 M
+1278 39 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.2 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1254 468 M
+1254 468 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.2 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1254 39 M
+1254 39 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.2 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1278 468 M
+1278 468 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0.5] CT
+0.2 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+1278 39 M
+1278 39 L
+S
+GR
+%%Trailer
+%%Pages: 1
+%%EOF
